@@ -1,7 +1,7 @@
-## Subsciption Card using React
+## Subscription Price Card using React
 
-### Netlify Deployment Link
-[Demo](http://localhost:3000)
+### Netlify Deployment Link:
+[Demo](https://relaxed-kalam-12e3dc.netlify.app/)
 
 ## Available Scripts
 
