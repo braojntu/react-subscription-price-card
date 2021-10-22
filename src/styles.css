@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*.App {
+  font-family: sans-serif;
+  text-align: center;
+}*/
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: blueviolet;
+  font-family: Oxygen, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size:2.5rem;
+  line-height:normal;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.card-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: bottom;
+  margin: 75px 0 75px 0;
+}
+
+.card {
+ 
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 8px;
+  margin-top: -25px;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.plan {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}
+
+.price {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.amt {
+  font-size: 48px;
+}
+
+.features {
+  border-top: 1px solid #bbb;
+}
+
+.f-list {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.btn-cont {
+  text-align: center;
+}
+
+.button {
+  background-color: blueviolet;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 200ms ease-in, color 200ms ease-in;
+  border-color: blueviolet;
+}
+
+.button:hover {
+  color: blueviolet;
+  background-color: white;
+  border-color: blueviolet;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-left: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+/*Another form of bullets*/
+li:nth-child(n - 5)::marker {
+  content: "✓ ";
+  font-size: 20px;
+}
+
+li:nth-child(n + 5)::marker {
+  content: "x ";
+  font-size: 20px;
+}
